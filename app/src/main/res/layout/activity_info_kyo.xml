@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".infoKyo">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        app:srcCompat="@drawable/kyo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kyo Kusanagi (草薙京, Kusanagi Kyō) es uno de los personajes principales de la entrega de SNK Playmore The King of Fighters; (el héroe eterno de KOF según los desarrolladores) debutando en el torneo del año 1994 como líder del equipo de Japón. Habiendo ganado los torneos KOF del año '94 hasta el '97, teniendo 4 de ellos y siendo el que más ha ganado. También es el rival de Iori Yagami y K', ademas de ser uno de los personajes de la famosa &quot;Band of fighters&quot;" />
+
+    <ProgressBar
+        android:id="@+id/barra4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="296dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="282dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/info_Kyo" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="159dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/info_Kyo2" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/regresarMenu4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:onClick="regresar"/>
+
+</LinearLayout>

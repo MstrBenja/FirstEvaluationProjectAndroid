@@ -43,14 +43,16 @@
                     android:layout_width="202dp"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/jinkazama" />
+                    android:src="@drawable/jinkazama"
+                    android:onClick="infoBoton1"/>
 
                 <ImageButton
                     android:id="@+id/terryButton"
                     android:layout_width="206dp"
                     android:layout_height="197dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/terry" />
+                    android:src="@drawable/terry"
+                    android:onClick="infoBoton2"/>
             </TableRow>
 
             <TableRow
@@ -62,14 +64,16 @@
                     android:layout_width="41dp"
                     android:layout_height="wrap_content"
                     android:scaleType="center"
-                    android:src="@drawable/ryu" />
+                    android:src="@drawable/ryu"
+                    android:onClick="infoBoton3"/>
 
                 <ImageButton
                     android:id="@+id/kyoButton"
                     android:layout_width="203dp"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kyo" />
+                    android:src="@drawable/kyo"
+                    android:onClick="infoBoton4"/>
 
             </TableRow>
 
@@ -92,28 +96,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="CheckBox" />
+                android:text="Jin" />
 
             <CheckBox
                 android:id="@+id/cbxOpc2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="CheckBox" />
+                android:text="Terry" />
 
             <CheckBox
                 android:id="@+id/cbxOpc3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="CheckBox" />
+                android:text="Ryu" />
 
             <CheckBox
                 android:id="@+id/cbxOpc4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="CheckBox" />
+                android:text="Kyo" />
         </LinearLayout>
 
         <TextView

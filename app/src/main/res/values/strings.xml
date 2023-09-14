@@ -1,3 +1,75 @@
 <resources>
     <string name="app_name">trabajoPrimeroAndroid</string>
+
+
+    <string name="info_Jin">- Estilo de Lucha Estilo de artes marciales tradicionales Kazama \n
+        Estilo de lucha karate Mishima (Tekken 3) \n
+        Karate tradicional (Kyokushin Karate) \n
+        - Nacionalidad: Japón \n
+        - Altura: 183 cm \n
+        - Peso: 78 kg
+    </string>
+
+    <string name="PapaJin">- Parentezco: Padre \n
+        - Nombre: Kazuya Mishima \n
+        - Nacionalidad: Japón (aunque abandono esta nacionalidad cuando fue devuelto a la vida) \n
+        - Altura: 185 cm (6′1 ″) \n
+        - Peso: 87 kg (191 lbs) \n
+        -  Estilo de Lucha: Estilo de lucha karate Mishima
+    </string>
+
+    <string name="MamaJin">- Parentezco: Madre \n
+        - Nombre: Jun Kazama  \n
+        - Nacionalidad: Japon \n
+        - Altura: 170 cm (5′ 7″)
+        - Peso: 60 kg (132 lbs) \n
+        -  Estilo de Lucha: Estilo tradicional de artes marciales Kazama (basado en Koryu bujutsu)
+    </string>
+
+    <string name="info_Ryu">- Nacionalidad: Japón\n
+        - Altura: 175cm (5′8") \n - Peso 85kg (187 lbs) \n - Estilo de pelea: Arte marcial con raíces en Ansatsuken y Karate Kyokushin
+    </string>
+
+    <string name="info_Ryu2">Apariciones:
+        - Street Fighter \n
+        - Street Fighter 2 \n
+        - Street Fighter 3rd Strike\n
+        - Street Fighter IV\n
+        - Street Fighter V\n
+        - Street Fighter 6\n
+        - Entre otros.\n
+    </string>
+
+    <string name="info_Terry">- Parentezcos: Jeff Bogard (padre adoptivo), Andy Bogard (hermano), Rock Howard (hijo adoptivo),
+        Ukee (mono mascota), Blue Mary (posible interés amoroso)\n
+        - Altura: 182cm \n - Peso 83kg \n - Estilo de pelea: Artes Marciales + Hakkyokuseiken y Lucha Callejera
+    </string>
+
+    <string name="info_Terry2">Apariciones:
+        - Fatal Fury \n
+        - Fatal Fury 2 \n
+        - The King of Fighters\n
+        - Ftal Fury 3\n
+        - The King of Fighters 3\n
+        - Real Bout Fatal Fury\n
+        - Entre otros.\n
+    </string>
+
+    <string name="info_Kyo">- Parentezcos: 	Saisyu Kusanagi (padre) Shizuka Kusanagi (madre) Souji Kusanagi (primo) Aoi Kusanagi (prima)
+Kyo-1 , Kyo-2 (clones)
+K´, Krizalid, K9999, Nameless (poseen su ADN)
+Kusanagi (clon creado por Chizuru Kagura)
+Yuki (novia)\n
+        - Altura: 181cm \n - Peso 75kg \n - Estilo de pelea: Estilo Kusanagi + Kenpo \n Habilidad especial: Pirokinesis
+    </string>
+
+    <string name="info_Kyo2">Apariciones:
+        - The King of Fighters ´94 \n
+        - The King of Fighters ´95 \n
+        - The King of Fighters ´96 \n
+        - Street Fighter vs SNK \n
+        - The King of Fighters XIV \n
+        - The King of Fighters XV \n
+        - Entre otros.\n
+    </string>
 </resources>

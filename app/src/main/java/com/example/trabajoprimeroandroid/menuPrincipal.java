@@ -50,34 +50,34 @@ public class menuPrincipal extends AppCompatActivity {
 
         float cantidad = 0;
         cantidad = valorar.getRating();
-        if (cantidad >= 1 || cantidad <= 2){
+        if (cantidad >= 1 && cantidad <= 2){
             cantidad = Math.round(cantidad);
             Toast.makeText(menuPrincipal.this, "Puf... una baja calidad... pero igual gracias por esas estrellas...", Toast.LENGTH_SHORT).show();
-        }else if (cantidad == 3){
+        }else if (cantidad == 3 || cantidad == 2.5){
             Toast.makeText(menuPrincipal.this, "ojalá hubiesen sido más :/... ¡pero gracias por las "+cantidad+" estrellas!", Toast.LENGTH_SHORT).show();
-        } else if (cantidad >= 4 || cantidad <= 5) {
-            Toast.makeText(menuPrincipal.this, "GRACIAS POR ESAS "+cantidad+" ERES GOD", Toast.LENGTH_SHORT).show();
+        } else if (cantidad >= 4 && cantidad <= 5) {
+            Toast.makeText(menuPrincipal.this, "GRACIAS POR ESAS "+cantidad+" ESTRELLAS ERES GOD", Toast.LENGTH_SHORT).show();
         }
     }// method
 
     public void infoBoton1(View v){
-        //Intent infoJin = new Intent(this, infoJin.class);
-        //startActivity(infoJin);
+        Intent infoJin = new Intent(this, infoJin.class);
+        startActivity(infoJin);
     }
 
     public void infoBoton2(View v){
-        //Intent infoTerry = new Intent(this, infoTerry.class);
-        //startActivity(infoTerry);
+        Intent infoTerry = new Intent(this, infoTerry.class);
+        startActivity(infoTerry);
     }
 
     public void infoBoton3(View v){
-        //Intent infoRyu = new Intent(this, infoRyu.class);
-        //startActivity(infoRyu);
+        Intent infoRyu = new Intent(this, infoRyu.class);
+        startActivity(infoRyu);
     }
 
     public void infoBoton4(View v){
-        //Intent infoKyo = new Intent(this, infoKyo.class);
-        //startActivity(infoKyo);
+        Intent infoKyo = new Intent(this, infoKyo.class);
+        startActivity(infoKyo);
     }
 
 }// class
